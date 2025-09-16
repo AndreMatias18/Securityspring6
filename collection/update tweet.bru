@@ -1,0 +1,21 @@
+meta {
+  name: update tweet
+  type: http
+  seq: 7
+}
+
+patch {
+  url: http://localhost:8080/tweets/1
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "content": "Texto atualizado do tweet"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
