@@ -1,0 +1,1814 @@
+.task-management {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1920px;
+  height: 1780px;
+  position: relative;
+}
+
+.task-management .BACKGROUND {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 2005px;
+}
+
+.task-management .page-background {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 960px);
+  width: 1920px;
+  height: 1928px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.task-management .content-background {
+  position: absolute;
+  top: 120px;
+  left: calc(50.00% - 615px);
+  width: 1575px;
+  height: 1885px;
+  background-color: #f8f8f8;
+  border-radius: 38px 0px 0px 38px;
+}
+
+.task-management .NAV {
+  position: absolute;
+  top: 0;
+  left: 345px;
+  width: 1575px;
+  height: 120px;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.task-management .main-title {
+  margin-top: 39px;
+  width: 235px;
+  height: 42px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.task-management .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 44px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .menu {
+  position: absolute;
+  top: 9px;
+  left: calc(50.00% - 118px);
+  width: 24px;
+  height: 24px;
+}
+
+.task-management .searchbox {
+  margin-top: 31px;
+  width: 511px;
+  height: 58px;
+  position: relative;
+  margin-left: 345px;
+}
+
+.task-management .background {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 256px);
+  width: 509px;
+  height: 58px;
+  background-color: #efefef78;
+  border-radius: 18px;
+}
+
+.task-management .div {
+  position: absolute;
+  top: 17px;
+  left: calc(50.00% - 220px);
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #757575;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .notification {
+  margin-top: 32px;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  margin-left: 74px;
+  background-color: #ffffff;
+  border-radius: 49px;
+}
+
+.task-management .ic-bell {
+  position: absolute;
+  top: 14px;
+  left: calc(50.00% - 14px);
+  width: 28px;
+  height: 28px;
+}
+
+.task-management .dot-counter {
+  position: absolute;
+  top: 2px;
+  left: 28px;
+  width: 28px;
+  height: 26px;
+}
+
+.task-management .background-2 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 14px);
+  width: 26px;
+  height: 26px;
+  background-color: #fabb18;
+  border-radius: 13px;
+}
+
+.task-management .text-wrapper-2 {
+  position: absolute;
+  top: 3px;
+  left: calc(50.00% - 7px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .profile {
+  margin-top: 32px;
+  width: 207px;
+  height: 57px;
+  position: relative;
+  margin-left: 53px;
+}
+
+.task-management .text-wrapper-3 {
+  position: absolute;
+  top: 4px;
+  left: calc(50.00% - 104px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-4 {
+  position: absolute;
+  top: 33px;
+  left: calc(50.00% - 76px);
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #8f8f8f;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .group {
+  position: absolute;
+  top: 0;
+  left: 146px;
+  width: 57px;
+  height: 57px;
+}
+
+.task-management .group-2 {
+  position: absolute;
+  top: 50px;
+  left: 1439px;
+  width: 18px;
+  height: 19px;
+}
+
+.task-management .path {
+  position: absolute;
+  width: 37.50%;
+  height: 35.29%;
+  top: 64.71%;
+  left: 62.50%;
+}
+
+.task-management .img {
+  position: absolute;
+  width: 87.50%;
+  height: 82.35%;
+  top: 0;
+  left: 0;
+}
+
+.task-management .background-3 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 960px);
+  width: 345px;
+  height: 1780px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.task-management .group-3 {
+  position: absolute;
+  top: 901px;
+  left: 35px;
+  width: 279px;
+  height: 81px;
+}
+
+.task-management .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 275px;
+  height: 81px;
+  background-color: #ffffff1a;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #dedede;
+}
+
+.task-management .rectangle-2 {
+  position: absolute;
+  top: 26px;
+  left: 228px;
+  width: 32px;
+  height: 33px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .angle-down {
+  position: absolute;
+  width: 8.60%;
+  top: calc(50.00% - 10px);
+  left: 83.15%;
+  height: 24px;
+}
+
+.task-management .text-wrapper-5 {
+  position: absolute;
+  top: 30px;
+  left: calc(50.00% - 110px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-6 {
+  position: absolute;
+  top: 8px;
+  left: calc(50.00% - 110px);
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #afafaf;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .mainmenu {
+  position: absolute;
+  top: 189px;
+  left: 0;
+  width: 345px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-management .dashboard {
+  margin-left: 60px;
+  width: 247px;
+  height: 70px;
+  position: relative;
+}
+
+.task-management .background-4 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 124px);
+  width: 245px;
+  height: 70px;
+  background-color: #000000;
+  border-radius: 18px;
+}
+
+.task-management .group-4 {
+  position: absolute;
+  width: 10.53%;
+  height: 37.14%;
+  top: 30.00%;
+  left: 10.93%;
+}
+
+.task-management .rectangle-3 {
+  position: absolute;
+  width: 43.75%;
+  height: 25.00%;
+  top: 0;
+  left: 0;
+  background-color: #fabb18;
+  border-radius: 1.5px;
+}
+
+.task-management .rectangle-copy {
+  height: 25.00%;
+  top: 75.00%;
+  left: 56.25%;
+  background-color: #fabb18;
+  position: absolute;
+  width: 43.75%;
+  border-radius: 1.5px;
+}
+
+.task-management .rectangle-copy-2 {
+  height: 62.50%;
+  top: 37.50%;
+  left: 0;
+  background-color: #ffffff;
+  position: absolute;
+  width: 43.75%;
+  border-radius: 1.5px;
+}
+
+.task-management .rectangle-copy-3 {
+  position: absolute;
+  width: 43.75%;
+  height: 62.50%;
+  top: 0;
+  left: 56.25%;
+  background-color: #ffffff;
+  border-radius: 1.5px;
+}
+
+.task-management .text-wrapper-7 {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 48px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .search-job {
+  width: 347px;
+  height: 80px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.task-management .background-5 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 174px);
+  width: 345px;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.task-management .text-wrapper-8 {
+  position: absolute;
+  top: 27px;
+  left: calc(50.00% - 24px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #232323;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .div-2 {
+  width: 347px;
+  height: 80px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.task-management .text-wrapper-9 {
+  position: absolute;
+  top: 26px;
+  left: calc(50.00% - 24px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .background-6 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 174px);
+  width: 345px;
+  height: 80px;
+}
+
+.task-management .time-schedule {
+  position: absolute;
+  width: 0;
+  top: calc(50.00% - 500px);
+  left: 4.48%;
+  height: 28px;
+}
+
+.task-management .group-5 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 17.02%;
+  left: 4.64%;
+}
+
+.task-management .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 345px;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.task-management .TASKY {
+  position: absolute;
+  top: 43px;
+  left: calc(50.00% - 874px);
+  font-family: "Poppins ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .span {
+  color: #000000;
+}
+
+.task-management .text-wrapper-10 {
+  color: #fabb18;
+}
+
+.task-management .group-6 {
+  position: absolute;
+  top: 570px;
+  left: 90px;
+  width: 21px;
+  height: 26px;
+}
+
+.task-management .group-7 {
+  position: absolute;
+  top: 662px;
+  left: 89px;
+  width: 23px;
+  height: 23px;
+}
+
+.task-management .group-8 {
+  position: absolute;
+  top: 481px;
+  left: 91px;
+  width: 18px;
+  height: 25px;
+}
+
+.task-management .background-7 {
+  position: absolute;
+  top: 187px;
+  left: calc(50.00% + 396px);
+  width: 516px;
+  height: 167px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .background-8 {
+  position: absolute;
+  top: 427px;
+  left: calc(50.00% - 565px);
+  width: 470px;
+  height: 301px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .group-9 {
+  position: absolute;
+  top: 474px;
+  left: 815px;
+  width: 5px;
+  height: 17px;
+}
+
+.task-management .background-9 {
+  position: absolute;
+  top: 765px;
+  left: calc(50.00% - 565px);
+  width: 721px;
+  height: 501px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .text-wrapper-11 {
+  position: absolute;
+  top: 889px;
+  left: calc(50.00% - 457px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .group-10 {
+  position: absolute;
+  top: 883px;
+  left: 451px;
+  width: 37px;
+  height: 37px;
+}
+
+.task-management .background-10 {
+  position: absolute;
+  top: 765px;
+  left: calc(50.00% + 191px);
+  width: 721px;
+  height: 501px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .background-11 {
+  position: absolute;
+  top: 1304px;
+  left: calc(50.00% - 565px);
+  width: 721px;
+  height: 387px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .background-12 {
+  position: absolute;
+  top: 1304px;
+  left: calc(50.00% + 191px);
+  width: 721px;
+  height: 387px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .group-11 {
+  position: absolute;
+  top: 1336px;
+  left: 1196px;
+  width: 632px;
+  height: 42px;
+}
+
+.task-management .text-wrapper-12 {
+  top: 0;
+  left: calc(50.00% - 316px);
+  color: #000000;
+  font-size: 28px;
+  position: absolute;
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .group-12 {
+  position: absolute;
+  top: 12px;
+  left: 625px;
+  width: 5px;
+  height: 17px;
+}
+
+.task-management .background-13 {
+  position: absolute;
+  top: 1193px;
+  left: calc(50.00% + 761px);
+  width: 116px;
+  height: 46px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.task-management .background-14 {
+  position: absolute;
+  top: 1616px;
+  left: calc(50.00% + 761px);
+  width: 116px;
+  height: 46px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.task-management .text-wrapper-13 {
+  top: 1206px;
+  left: calc(50.00% + 792px);
+  position: absolute;
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-14 {
+  top: 1628px;
+  left: calc(50.00% + 774px);
+  position: absolute;
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .background-15 {
+  position: absolute;
+  top: 884px;
+  left: calc(50.00% + 253px);
+  width: 35px;
+  height: 35px;
+  background-color: #fabb181a;
+  border-radius: 36px;
+}
+
+.task-management .background-16 {
+  position: absolute;
+  top: 1462px;
+  left: calc(50.00% + 253px);
+  width: 35px;
+  height: 35px;
+  background-color: #fabb181a;
+  border-radius: 36px;
+}
+
+.task-management .background-17 {
+  position: absolute;
+  top: 1540px;
+  left: calc(50.00% + 253px);
+  width: 35px;
+  height: 35px;
+  background-color: #fabb181a;
+  border-radius: 36px;
+}
+
+.task-management .background-18 {
+  position: absolute;
+  top: 963px;
+  left: calc(50.00% + 253px);
+  width: 35px;
+  height: 35px;
+  background-color: #fabb181a;
+  border-radius: 36px;
+}
+
+.task-management .background-19 {
+  position: absolute;
+  top: 1042px;
+  left: calc(50.00% + 253px);
+  width: 35px;
+  height: 35px;
+  background-color: #fabb181a;
+  border-radius: 36px;
+}
+
+.task-management .background-20 {
+  position: absolute;
+  top: 1121px;
+  left: calc(50.00% + 253px);
+  width: 35px;
+  height: 35px;
+  background-color: #fabb181a;
+  border-radius: 36px;
+}
+
+.task-management .combined-shape {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50.28%;
+  left: 63.70%;
+}
+
+.task-management .combined-shape-2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 82.75%;
+  left: 63.70%;
+}
+
+.task-management .combined-shape-3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 87.13%;
+  left: 63.70%;
+}
+
+.task-management .combined-shape-4 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 54.72%;
+  left: 63.70%;
+}
+
+.task-management .combined-shape-5 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 59.16%;
+  left: 63.70%;
+}
+
+.task-management .combined-shape-6 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 63.60%;
+  left: 63.70%;
+}
+
+.task-management .background-21 {
+  position: absolute;
+  top: 427px;
+  left: calc(50.00% - 61px);
+  width: 470px;
+  height: 301px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .group-13 {
+  position: absolute;
+  top: 474px;
+  left: 1319px;
+  width: 5px;
+  height: 17px;
+}
+
+.task-management .group-14 {
+  position: absolute;
+  top: 478px;
+  left: 1823px;
+  width: 5px;
+  height: 17px;
+}
+
+.task-management .background-22 {
+  position: absolute;
+  top: 427px;
+  left: calc(50.00% + 443px);
+  width: 470px;
+  height: 301px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  box-shadow: 0px 16px 31px #00000003;
+}
+
+.task-management .background-23 {
+  position: absolute;
+  top: 225px;
+  left: calc(50.00% + 772px);
+  width: 90px;
+  height: 90px;
+  background-color: #fabb18;
+  border-radius: 24px;
+}
+
+.task-management .text-wrapper-15 {
+  position: absolute;
+  top: 249px;
+  left: calc(50.00% + 449px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .group-15 {
+  position: absolute;
+  top: 206px;
+  left: 395px;
+  width: 310px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.task-management .text-wrapper-16 {
+  margin-left: -139px;
+  height: 81px;
+  width: 171px;
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .p {
+  margin-left: -4px;
+  height: 42px;
+  width: 306px;
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .polygon {
+  position: absolute;
+  top: 256px;
+  left: 1767px;
+  width: 27px;
+  height: 30px;
+}
+
+.task-management .text-wrapper-17 {
+  position: absolute;
+  top: 461px;
+  left: calc(50.00% - 523px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-18 {
+  position: absolute;
+  top: 590px;
+  left: calc(50.00% - 523px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-19 {
+  top: 590px;
+  left: calc(50.00% - 25px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-size: 44px;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-20 {
+  position: absolute;
+  top: 590px;
+  left: calc(50.00% + 490px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-21 {
+  position: absolute;
+  top: 461px;
+  left: calc(50.00% - 25px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-22 {
+  top: 461px;
+  left: calc(50.00% + 491px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-size: 28px;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .background-24 {
+  position: absolute;
+  top: 548px;
+  left: calc(50.00% - 280px);
+  width: 151px;
+  height: 151px;
+  background-color: #fabb181a;
+  border-radius: 38px;
+}
+
+.task-management .group-16 {
+  position: absolute;
+  top: 592px;
+  left: 723px;
+  width: 66px;
+  height: 62px;
+}
+
+.task-management .background-25 {
+  position: absolute;
+  top: 548px;
+  left: calc(50.00% + 223px);
+  width: 151px;
+  height: 151px;
+  background-color: #fabb181a;
+  border-radius: 38px;
+}
+
+.task-management .group-17 {
+  position: absolute;
+  top: 588px;
+  left: 1226px;
+  width: 66px;
+  height: 69px;
+}
+
+.task-management .background-26 {
+  position: absolute;
+  top: 548px;
+  left: calc(50.00% + 726px);
+  width: 151px;
+  height: 151px;
+  background-color: #fabb181a;
+  border-radius: 38px;
+}
+
+.task-management .combined-shape-7 {
+  position: absolute;
+  width: 3.02%;
+  height: 2.81%;
+  top: 33.43%;
+  left: 90.10%;
+}
+
+.task-management .group-18 {
+  position: absolute;
+  top: 474px;
+  left: 1825px;
+  width: 5px;
+  height: 17px;
+}
+
+.task-management .group-19 {
+  position: absolute;
+  top: 799px;
+  left: 437px;
+  width: 632px;
+  height: 42px;
+}
+
+.task-management .group-20 {
+  position: absolute;
+  top: 799px;
+  left: 1196px;
+  width: 632px;
+  height: 42px;
+}
+
+.task-management .group-21 {
+  position: absolute;
+  top: 1336px;
+  left: 440px;
+  width: 632px;
+  height: 42px;
+}
+
+.task-management .rectangle-4 {
+  position: absolute;
+  top: 869px;
+  left: 435px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-5 {
+  position: absolute;
+  top: 960px;
+  left: 435px;
+  width: 201px;
+  height: 131px;
+  object-fit: cover;
+}
+
+.task-management .rectangle-6 {
+  position: absolute;
+  top: 1104px;
+  left: 437px;
+  width: 201px;
+  height: 131px;
+  object-fit: cover;
+}
+
+.task-management .rectangle-7 {
+  position: absolute;
+  top: 960px;
+  left: 655px;
+  width: 201px;
+  height: 131px;
+  object-fit: cover;
+}
+
+.task-management .rectangle-8 {
+  position: absolute;
+  top: 960px;
+  left: 875px;
+  width: 201px;
+  height: 131px;
+  object-fit: cover;
+}
+
+.task-management .rectangle-9 {
+  position: absolute;
+  top: 1104px;
+  left: 655px;
+  width: 201px;
+  height: 131px;
+  object-fit: cover;
+}
+
+.task-management .rectangle-10 {
+  position: absolute;
+  top: 881px;
+  left: 967px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .text-wrapper-23 {
+  position: absolute;
+  top: 891px;
+  left: calc(50.00% + 28px);
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-24 {
+  top: 889px;
+  left: calc(50.00% + 300px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-25 {
+  position: absolute;
+  top: 1466px;
+  left: calc(50.00% + 297px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-26 {
+  position: absolute;
+  top: 1545px;
+  left: calc(50.00% + 297px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-27 {
+  position: absolute;
+  top: 1446px;
+  left: calc(50.00% - 453px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-28 {
+  position: absolute;
+  top: 1542px;
+  left: calc(50.00% - 453px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-29 {
+  position: absolute;
+  top: 1471px;
+  left: calc(50.00% - 453px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-30 {
+  top: 1567px;
+  left: calc(50.00% - 453px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-size: 14px;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-31 {
+  position: absolute;
+  top: 1493px;
+  left: calc(50.00% - 453px);
+  font-family: "Poppins Light-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-32 {
+  position: absolute;
+  top: 1589px;
+  left: calc(50.00% - 453px);
+  font-family: "Poppins Light-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-33 {
+  position: absolute;
+  top: 1403px;
+  left: calc(50.00% - 519px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-34 {
+  top: 1403px;
+  left: calc(50.00% + 236px);
+  color: #9a9a9a;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-35 {
+  position: absolute;
+  top: 1403px;
+  left: calc(50.00% - 203px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-36 {
+  position: absolute;
+  top: 1403px;
+  left: calc(50.00% + 562px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-37 {
+  position: absolute;
+  top: 1403px;
+  left: calc(50.00% - 84px);
+  font-family: "Poppins Medium-Regular", Helvetica;
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-38 {
+  top: 968px;
+  left: calc(50.00% + 300px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-39 {
+  top: 1047px;
+  left: calc(50.00% + 300px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-40 {
+  top: 1126px;
+  left: calc(50.00% + 300px);
+  font-family: "Poppins SemiBold-Regular", Helvetica;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .rectangle-11 {
+  position: absolute;
+  top: 869px;
+  left: 1196px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-12 {
+  position: absolute;
+  top: 1447px;
+  left: 1196px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-13 {
+  position: absolute;
+  top: 1525px;
+  left: 1196px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-14 {
+  position: absolute;
+  top: 1438px;
+  left: 440px;
+  width: 641px;
+  height: 82px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-15 {
+  position: absolute;
+  top: 1534px;
+  left: 440px;
+  width: 641px;
+  height: 82px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-16 {
+  position: absolute;
+  top: 948px;
+  left: 1196px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-17 {
+  position: absolute;
+  top: 1027px;
+  left: 1196px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-18 {
+  position: absolute;
+  top: 1106px;
+  left: 1196px;
+  width: 641px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+}
+
+.task-management .rectangle-19 {
+  position: absolute;
+  top: 881px;
+  left: 1512px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-20 {
+  position: absolute;
+  top: 1459px;
+  left: 1512px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-21 {
+  position: absolute;
+  top: 1537px;
+  left: 1512px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-22 {
+  position: absolute;
+  top: 1461px;
+  left: 756px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-23 {
+  position: absolute;
+  top: 1557px;
+  left: 756px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-24 {
+  position: absolute;
+  top: 1461px;
+  left: 876px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-25 {
+  position: absolute;
+  top: 1557px;
+  left: 876px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-26 {
+  position: absolute;
+  top: 960px;
+  left: 1512px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-27 {
+  position: absolute;
+  top: 1039px;
+  left: 1512px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-28 {
+  position: absolute;
+  top: 1118px;
+  left: 1512px;
+  width: 95px;
+  height: 41px;
+  background-color: #fff8e8;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-29 {
+  position: absolute;
+  top: 900px;
+  left: 1630px;
+  width: 188px;
+  height: 3px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-30 {
+  position: absolute;
+  top: 1478px;
+  left: 1630px;
+  width: 188px;
+  height: 3px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-31 {
+  position: absolute;
+  top: 1556px;
+  left: 1630px;
+  width: 188px;
+  height: 3px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-32 {
+  position: absolute;
+  top: 979px;
+  left: 1630px;
+  width: 188px;
+  height: 3px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-33 {
+  position: absolute;
+  top: 1058px;
+  left: 1630px;
+  width: 188px;
+  height: 3px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-34 {
+  position: absolute;
+  top: 1137px;
+  left: 1630px;
+  width: 188px;
+  height: 3px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-35 {
+  position: absolute;
+  top: 900px;
+  left: 1630px;
+  width: 160px;
+  height: 3px;
+  background-color: #fabb18;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-36 {
+  position: absolute;
+  top: 1478px;
+  left: 1630px;
+  width: 160px;
+  height: 3px;
+  background-color: #fabb18;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-37 {
+  position: absolute;
+  top: 1556px;
+  left: 1630px;
+  width: 160px;
+  height: 3px;
+  background-color: #fabb18;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-38 {
+  position: absolute;
+  top: 979px;
+  left: 1630px;
+  width: 58px;
+  height: 3px;
+  background-color: #fabb18;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-39 {
+  position: absolute;
+  top: 1058px;
+  left: 1630px;
+  width: 101px;
+  height: 3px;
+  background-color: #fabb18;
+  border-radius: 10px;
+}
+
+.task-management .rectangle-40 {
+  position: absolute;
+  top: 1137px;
+  left: 1630px;
+  width: 129px;
+  height: 3px;
+  background-color: #fabb18;
+  border-radius: 10px;
+}
+
+.task-management .text-wrapper-41 {
+  top: 891px;
+  left: calc(50.00% + 571px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-42 {
+  top: 1469px;
+  left: calc(50.00% + 571px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-43 {
+  top: 1547px;
+  left: calc(50.00% + 571px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-44 {
+  top: 1471px;
+  left: calc(50.00% - 185px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-45 {
+  top: 1567px;
+  left: calc(50.00% - 185px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-46 {
+  top: 1471px;
+  left: calc(50.00% - 65px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-47 {
+  top: 1567px;
+  left: calc(50.00% - 65px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-48 {
+  top: 970px;
+  left: calc(50.00% + 576px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-49 {
+  top: 1049px;
+  left: calc(50.00% + 572px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .text-wrapper-50 {
+  top: 1128px;
+  left: calc(50.00% + 572px);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.task-management .group-22 {
+  position: absolute;
+  top: 1462px;
+  left: 455px;
+  width: 37px;
+  height: 37px;
+}
+
+.task-management .group-23 {
+  position: absolute;
+  top: 1558px;
+  left: 455px;
+  width: 37px;
+  height: 37px;
+}
+
+.task-management .ellipse {
+  top: 1490px;
+  position: absolute;
+  left: 479px;
+  width: 9px;
+  height: 9px;
+  background-color: #00e50a;
+  border-radius: 4.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.task-management .ellipse-2 {
+  top: 1586px;
+  position: absolute;
+  left: 479px;
+  width: 9px;
+  height: 9px;
+  background-color: #00e50a;
+  border-radius: 4.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
