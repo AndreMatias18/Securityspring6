@@ -99,18 +99,20 @@ public class TweetController {
         var isAdmin = user.getRoles()
                 .stream()
                 .anyMatch(role -> role.getName().equalsIgnoreCase(Role.Values.ADMIN.name()));
-
-        if (!isAdmin && !tweet.getUser().getUserId().equals(user.getUserId())) {
-            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
+        //!isAdmin  
+        if (isAdmin || tweet.getUser().getUserId().equals(user.getUserId())) {
+            
+                if (updates.containsKey("content")) {
+                tweet.setContent(updates.get("content"));
+                tweetRepository.save(tweet);
+                }
+                return ResponseEntity.ok().build();
+        }
+        else{
+                return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
         }
 
-        // Atualiza apenas o conteúdo se estiver presente
-        if (updates.containsKey("content")) {
-            tweet.setContent(updates.get("content"));
-            tweetRepository.save(tweet);
-        }
-
-        return ResponseEntity.ok().build();
+        
     }
 
 }
