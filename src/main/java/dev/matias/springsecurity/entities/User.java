@@ -16,9 +16,14 @@ public class User {
     @Column(name = "user_id")
     private UUID userId;
 
-    @Column(unique = true)
+    @Column(unique = true, nullable = false)
     private String username;
+
+    @Column(nullable = false)
     private String password;
+
+    @Column(name = "exhibition_name", nullable = false)
+    private String exhibitionname;
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(
@@ -28,7 +33,7 @@ public class User {
     )
     private Set<Role> roles;
 
-
+    // Getters e Setters
     public UUID getUserId() {
         return userId;
     }
@@ -51,6 +56,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getExhibitionname() {
+        return exhibitionname;
+    }
+
+    public void setExhibitionname(String exhibitionname) {
+        this.exhibitionname = exhibitionname;
     }
 
     public Set<Role> getRoles() {

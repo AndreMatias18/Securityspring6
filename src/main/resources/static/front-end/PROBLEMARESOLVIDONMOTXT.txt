@@ -1,0 +1,5 @@
+Entao a solução para agora que o /home ta protejido mas se for por front-end/user/home.html
+ ele acede a solução que pensei foi separa na pasta front end CSS/JS/HTML e liberar apenas sem login o 
+ css e js e o html blovquer por requesição
+
+ se n der tenho e ao liberar uma rota liberar todos os files mas é menos certo 

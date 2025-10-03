@@ -3,8 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="front-end/dashboard-onlyforfront/globals.css" />
+    <link rel="stylesheet" href="front-end/dashboard-onlyforfront/style.css" />
   </head>
   <body>
     <div class="task-management">
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="profile">
-          <div class="text-wrapper-3">Manjay Gupta</div>
+          <label class="text-wrapper-3" id="exebicion_name"></label>
           <div class="text-wrapper-4">UX/UI Designer</div>
           <img class="group" src="https://c.animaapp.com/mfwxlcgcgqyjmB/img/group-54-1.png" />
         </div>
@@ -220,5 +220,21 @@
       <div class="ellipse"></div>
       <div class="ellipse-2"></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+    <script>
+      
+      const token = localStorage.getItem("token");
+
+      if (token) {
+        const decoded = jwt_decode(token);
+        console.log(decoded);
+
+        
+        document.getElementById("exebicion_name").innerText = decoded.exhibitionname;
+      }
+    </script>
+
+
+
   </body>
 </html>

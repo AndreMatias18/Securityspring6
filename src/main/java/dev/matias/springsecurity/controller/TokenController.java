@@ -13,6 +13,11 @@ import dev.matias.springsecurity.controller.dto.LoginRequest;
 import dev.matias.springsecurity.controller.dto.LoginResponse;
 import dev.matias.springsecurity.entities.Role;
 import dev.matias.springsecurity.repository.UserRepository;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletResponse;
+import java.util.Map;
+
 
 import java.time.Instant;
 import java.util.stream.Collectors;
@@ -31,9 +36,10 @@ public class TokenController {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
     }
-
+    
     @PostMapping("/login")
-    public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest) {
+    public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest){
+
 
         var user = userRepository.findByUsername(loginRequest.username());
 
@@ -54,6 +60,8 @@ public class TokenController {
                 .subject(user.get().getUserId().toString())
                 .issuedAt(now)
                 .expiresAt(now.plusSeconds(expiresIn))
+                .claim("ExhibitionName", user.get().getExhibitionname())
+                .claim("id", user.get().getUserId().toString())
                 .claim("scope", scopes)
                 .build();
 

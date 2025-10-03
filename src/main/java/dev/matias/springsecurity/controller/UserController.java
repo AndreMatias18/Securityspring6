@@ -46,6 +46,7 @@ public class UserController {
         }
 
         var user = new User();
+        user.setExhibitionname(dto.exhibitionname());
         user.setUsername(dto.username());
         user.setPassword(passwordEncoder.encode(dto.password()));
         user.setRoles(Set.of(basicRole));

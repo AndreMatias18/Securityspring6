@@ -1,0 +1,31 @@
+<script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+<script>
+    const token = localStorage.getItem("token");
+    
+    if (token) {
+      try {
+        const decoded = jwt_decode(token);
+        console.log(decoded);
+
+        
+        const now = Date.now() / 1000; // serve para eu saber a hora atual em segundos para comparar com o exp do token
+        if (decoded.exp && decoded.exp < now) {
+          console.warn("Token expirado");
+          localStorage.removeItem("token");
+          window.location.href = "/login-page";
+        } else {
+          window.location.href = "/home";
+
+          
+        }
+      } catch (e) {
+        console.error("Token inválido:", e);
+        localStorage.removeItem("token");
+        window.location.href = "/login-page";
+      }
+      window.location.href = "/login-page";
+    }
+    else {
+      window.location.href = "/login-page";
+    }
+  </script>

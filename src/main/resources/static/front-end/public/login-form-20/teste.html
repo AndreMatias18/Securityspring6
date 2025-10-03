@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Dashboard</h1>
+        <label class="dawd" id="exebicion_name"></label>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+    <script>
+      
+      const token = localStorage.getItem("token");
+
+      if (token) {
+        const decoded = jwt_decode(token);
+        console.log(decoded);
+
+        
+        document.getElementById("exebicion_name").innerText = decoded.exhibitionname;
+      }
+    </script>
+</body>
+</html>

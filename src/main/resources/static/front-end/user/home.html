@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div>
+        <h1>Dashboard</h1>
+        <label id="exebicion_name"></label>
+        <label id="role"></label>
+        <button id="logout" onclick="logout()">sair</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+  <script>
+
+    function logout() {
+      localStorage.removeItem("token");
+      window.location.href = "/login-page";
+    }
+    const token = localStorage.getItem("token");
+    
+    if (token) {
+      try {
+        const decoded = jwt_decode(token);
+        console.log(decoded);
+
+        
+        const now = Date.now() / 1000; // serve para eu saber a hora atual em segundos para comparar com o exp do token
+        if (decoded.exp && decoded.exp < now) {
+          console.warn("Token expirado");
+          localStorage.removeItem("token");
+          window.location.href = "/login-page";
+        } else {
+          // mostrar claims
+          document.getElementById("exebicion_name").innerText = decoded.ExhibitionName;
+          document.getElementById("role").innerText = decoded.scope;
+        }
+      } catch (e) {
+        console.error("Token inválido:", e);
+        localStorage.removeItem("token");
+        window.location.href = "/login-page";
+      }
+      
+    }
+    
+  </script>
+
+</body>
+</html>
