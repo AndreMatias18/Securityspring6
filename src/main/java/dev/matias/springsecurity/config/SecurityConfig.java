@@ -41,6 +41,7 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.POST, "/users").permitAll()
                 .requestMatchers(HttpMethod.POST, "/login").permitAll()
                 .requestMatchers(HttpMethod.GET, "/login-page").permitAll()
+                    .requestMatchers(HttpMethod.PATCH, "/tweets").permitAll()
                 // .requestMatchers(HttpMethod.GET, "/home").permitAll()
                 .requestMatchers("/home").authenticated()
                 .requestMatchers(HttpMethod.GET, "/me").permitAll()
