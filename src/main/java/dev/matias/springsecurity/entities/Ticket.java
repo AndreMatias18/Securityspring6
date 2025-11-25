@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 
 import java.util.Date;
 
+@Entity
 @Table(name = "tb_ticket")
 public class Ticket {
 
@@ -40,20 +41,6 @@ public class Ticket {
     private User assignedTo; // for know who was responsible for the resolution
 
 
-    public Ticket(Long ticketId, User user, String title, String content, String status, String priority, String category, boolean remoteAccessAllowed, Date createdAt, Date updatedAt, Date resolvedAt, User assignedTo) {
-        this.ticketId = ticketId;
-        this.user = user;
-        this.title = title;
-        this.content = content;
-        this.status = status;
-        this.priority = priority;
-        this.category = category;
-        this.remoteAccessAllowed = remoteAccessAllowed;
-        this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
-        this.resolvedAt = resolvedAt;
-        this.assignedTo = assignedTo;
-    }
 
     public Long getTicketId() {
         return ticketId;

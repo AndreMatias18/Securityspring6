@@ -1,0 +1,20 @@
+meta {
+  name: list tickets
+  type: http
+  seq: 9
+}
+
+get {
+  url: http://localhost:8080/ticket
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{accessToken}}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

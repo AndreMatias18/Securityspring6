@@ -1,0 +1,30 @@
+meta {
+  name: create Ticket
+  type: http
+  seq: 8
+}
+
+post {
+  url: http://localhost:8080/ticket
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{accessToken}}
+}
+
+body:json {
+  {
+    "title" : "teste2",
+    "content":"teste de criação de ticket",
+    "priority":"HIGH",
+    "category":"testes",
+    "remoteAccessAllowed":true
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
